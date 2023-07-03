@@ -9,3 +9,4 @@ def home(request):
 
 def signup(request):
     return HttpResponse(f"Account Registration: {datetime.now()}, You need a user name and passwoerd!")
+   
